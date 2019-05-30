@@ -1,0 +1,23 @@
+@mixin abs_both_middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+@mixin abs_horizontal_middle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin abs_vertical_middle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin clearBtnDefault() {
+  border: 0;
+  background-color: transparent;
+}
